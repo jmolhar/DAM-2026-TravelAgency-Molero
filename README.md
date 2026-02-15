@@ -1,17 +1,17 @@
 # DAM-2026-TravelAgency-Molero
 
-1. Titulo del proyecto
-   # XabiTravels
 
-2. Nombre del alumno
-  # Jorge Molero de Haro
+# XabiTravels
 
-3. Instrucciones para clonar e instalar el proyecto
+# Jorge Molero de Haro
+
+# Instrucciones para clonar e instalar el proyecto
    - Desde la Powershell ejecutar el comando "git clone https://github.com/jmolhar/DAM-2026-TravelAgency-Molero.git" , luego ejecutamos en Xamp Apache y MySQL.
+   - Copiar la carpeta en C:\xampp\htdocs\
    - Para crear la base de datos ejecutar desde el directorio de la app el comando "mysql -u root < sql/database_schema.sql" .
    - Las credenciales de admin son email: "admin@xabitravels.com" contraseña: "admin123". El usuario debe crearse ejecutando php admin.php desde el directorio sql
 
-4. Vistas de la web
+# Vistas de la web
 
    Pantalla inicial
    <img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/3b4bb85a-0f35-483b-8026-a1ea3f26c3fb" />
