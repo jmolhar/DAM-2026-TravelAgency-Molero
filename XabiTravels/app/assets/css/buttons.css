@@ -1,0 +1,147 @@
+.btn-save {
+    background-color: #003580;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-save:hover {
+    background-color: #002255;
+    color: #febb02;
+}
+
+.btn-action {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.btn-action:hover {
+    opacity: 0.8;
+}
+
+.btn-auth {
+    width: 100%;
+    background-color: #003580;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-auth:hover {
+    background-color: #002255;
+}
+
+.btn-book-big {
+    display: block;
+    width: 100%;
+    background-color: #febb02;
+    color: #003580;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-book-big:hover {
+    background-color: #e5a800;
+    transform: scale(1.02);
+}
+
+.btn-book-now {
+    width: 100%;
+    background-color: #febb02;
+    color: #003580;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-book-now:hover {
+    background-color: #e5a800;
+}
+
+.btn-disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    font-size: 14px;
+}
+
+.btn-admin-save {
+    background-color: #003580;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-admin-save:hover {
+    background-color: #002255;
+}
+
+.btn-admin-cancel {
+    text-decoration: none;
+    color: #666;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-admin-cancel:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-search-action {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: auto;
+    transition: 0.3s;
+}
+
+.btn-search-action:hover {
+    background-color: #febb02;
+    color: #003580;
+}

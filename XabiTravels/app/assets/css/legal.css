@@ -1,0 +1,153 @@
+.legal-hero {
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/bannerxabitravels.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.legal-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-hero-overlay h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+}
+
+.legal-content {
+    width: 100%;
+    background-color: #2a2a2a;
+    padding: 60px 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.legal-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 60px 20px;
+}
+
+.legal-wrapper > h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.legal-section {
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.legal-section h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.legal-section h4 {
+    color: #febb02;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.legal-section p {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.legal-section ul {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.legal-section li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.legal-section li strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.legal-section a {
+    color: #febb02;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.legal-section a:hover {
+    color: #ffffff;
+}
+
+.cookies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #2a2a2a;
+    overflow: hidden;
+}
+
+.cookies-table thead {
+    background-color: #1a1a1a;
+}
+
+.cookies-table th {
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #444444;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cookies-table td {
+    color: #e0e0e0;
+    padding: 12px 15px;
+    border-bottom: 1px solid #444444;
+    font-size: 14px;
+}
+
+.cookies-table tbody tr:hover {
+    background-color: #3a3a3a;
+}
+
+.cookies-table tbody tr:last-child td {
+    border-bottom: none;
+}

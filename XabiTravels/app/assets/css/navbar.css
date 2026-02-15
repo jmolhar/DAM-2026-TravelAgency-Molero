@@ -1,0 +1,126 @@
+.navbar {
+    background-color: #003580;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left-group {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.nav-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #febb02;
+}
+
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.nav-link-login {
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.nav-link-login:hover {
+    color: #febb02;
+}
+
+.nav-btn-logout {
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-btn-logout:hover {
+    color: #febb02;
+}
+
+.nav-btn-register {
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-btn-register:hover {
+    color: #febb02;
+}
+
+.nav-btn-admin {
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-btn-admin:hover {
+    color: #febb02;
+}
+
+.nav-search-btn {
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-search-btn:hover {
+    color: #febb02;
+}

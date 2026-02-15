@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    overflow-x: hidden;
+}
+
+.main_wrapper {
+    width: 100%;
+}
+
+.content_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #003580;
+}
+
+a {
+    text-decoration: none;
+}
